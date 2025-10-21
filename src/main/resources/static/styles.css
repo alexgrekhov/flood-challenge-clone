@@ -1,0 +1,61 @@
+/* styles.css */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: 600;
+    color: #333333;
+}
+
+p, label {
+    font-size: 14px;
+    color: #555555;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+button.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button.btn:hover {
+    background-color: #0056b3;
+}
+
+.muted {
+    color: #888888;
+    font-size: 12px;
+}
+
+label input[type="radio"] {
+    margin-right: 6px;
+}
